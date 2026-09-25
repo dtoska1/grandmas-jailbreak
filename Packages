@@ -8,12 +8,14 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 72
+Icon: https://dtoska1.github.io/grandmas-jailbreak/assets/grandmaclock-icon.png
+Depiction: https://dtoska1.github.io/grandmas-jailbreak/depictions/grandmaclock.html
+Homepage: https://dtoska1.github.io/grandmas-jailbreak/
 Filename: debs/com.local.grandmaclock_1.0.0_iphoneos-arm64.deb
 Size: 4362
 MD5sum: 258f2dd6e066770443404a82c5a84550
 SHA1: 0ad4ae8d0c72b1573c2a55d553db42e379043091
 SHA256: 17fb4c7aa58bd56c123e9e9775de11405b07f5df58dafe1eebea1966871fbbff
-
 
 Package: com.local.grandmaphonetest
 Name: GrandmaPhone
@@ -25,9 +27,11 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 76
+Icon: https://dtoska1.github.io/grandmas-jailbreak/assets/grandmaphone-icon.png
+Depiction: https://dtoska1.github.io/grandmas-jailbreak/depictions/grandmaphone.html
+Homepage: https://dtoska1.github.io/grandmas-jailbreak/
 Filename: debs/com.local.grandmaphonetest_1.0.0_iphoneos-arm64.deb
 Size: 8172
 MD5sum: 12d854aac3bb816c02b31a0baf81fb8e
 SHA1: 10bf8b2c1ca1c2ca574a16403435cd61f7be06f6
 SHA256: 7e6c61e868289a2189129a310c968a10bf0d88709af8ccf4f728d89e4d54689d
-

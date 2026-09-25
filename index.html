@@ -1,24 +1,60 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Grandma's Jailbreak</title>
-  <style>
-    :root{color-scheme:light dark}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:720px;margin:60px auto;padding:0 20px;line-height:1.55}
-    code{background:color-mix(in srgb,currentColor 10%,transparent);padding:2px 6px;border-radius:5px}
-    .card{border:1px solid color-mix(in srgb,currentColor 20%,transparent);border-radius:14px;padding:18px;margin:18px 0}
-    .muted{opacity:.72}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grandma’s Jailbreak</title>
+<meta name="description" content="GrandmaPhone and GrandmaClock — a simpler, family-built iPhone experience for an elderly user.">
+<link rel="icon" href="assets/repo-icon.png">
+<style>
+:root{--bg:#0f1620;--panel:#172331;--cream:#f7f1e7;--muted:#b9c4cf;--teal:#59c8c5;--orange:#e19858;--line:#2a3b4d}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#0d141d,#111b27);color:var(--cream);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1080px,92vw);margin:auto}.hero{padding:72px 0 34px;text-align:center}.logo{width:94px;height:94px;border-radius:24px;box-shadow:0 16px 45px #0008}.hero h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:.95;margin:24px 0 16px;letter-spacing:-.055em}.hero p{max-width:720px;margin:0 auto;color:var(--muted);font-size:1.12rem}.repo{display:inline-block;margin:24px 0;padding:13px 18px;border:1px solid var(--line);border-radius:999px;background:#111c27;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9rem}.heroimg{width:100%;border-radius:26px;border:1px solid var(--line);box-shadow:0 35px 90px #0007;margin:22px 0 52px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:26px;overflow:hidden}.pkghead{display:flex;gap:16px;align-items:center}.pkgicon{width:66px;height:66px;border-radius:17px}.card h2{font-size:2rem;margin:0}.muted{color:var(--muted)}.card img.feature{width:100%;border-radius:17px;margin-top:20px}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.chip{padding:6px 10px;border-radius:999px;background:#0e1823;border:1px solid var(--line);font-size:.82rem;color:#cdd7df}.section{padding:40px 0}.section h3{font-size:2rem;margin-bottom:10px}.shots{display:grid;grid-template-columns:1fr 1fr;gap:22px}.shots img{width:100%;border-radius:22px;border:1px solid var(--line)}.docs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.doc{padding:17px;border:1px solid var(--line);border-radius:16px;background:#121e2a}.footer{text-align:center;color:var(--muted);padding:50px 0 70px}@media(max-width:760px){.grid,.shots,.docs{grid-template-columns:1fr}.hero{padding-top:48px}.card h2{font-size:1.6rem}}
+</style>
 </head>
 <body>
-  <h1>Grandma's Jailbreak</h1>
-  <p>A rootless iOS 15 setup built around a simpler, more readable iPhone experience for Grandma.</p>
-  <div class="card"><strong>GrandmaPhone</strong><br>Simplified Phone/Favorites interface with Grandma Mode, temporary Admin modes, call-aware Home behavior, and automatic return to Favorites.</div>
-  <div class="card"><strong>GrandmaClock</strong><br>Larger status-bar and Lock Screen clock with clearer date and charging status.</div>
-  <p><strong>Sileo source:</strong> <code>https://dtoska1.github.io/grandmas-jailbreak/</code></p>
-  <p>The first 1.0.0 packages will be published after the exact release builds are physically validated on the tested iPhone 7.</p>
-  <p class="muted"><strong>Tested:</strong> iPhone 7 · iOS 15.8.8 · Dopamine rootless / ElleKit · package architecture <code>iphoneos-arm64</code>.</p>
-</body>
-</html>
+<main class="wrap">
+<section class="hero">
+<img class="logo" src="assets/repo-icon.png" alt="Grandma's Jailbreak">
+<h1>Grandma’s<br>Jailbreak</h1>
+<p>A simpler iPhone experience, built for family. Two focused tweaks designed around easier calling, clearer information, and a safe way for family to maintain the phone.</p>
+<div class="repo">https://dtoska1.github.io/grandmas-jailbreak/</div>
+<img class="heroimg" src="assets/hero.png" alt="Grandma's Jailbreak overview">
+</section>
+
+<section class="grid">
+<article class="card">
+<div class="pkghead"><img class="pkgicon" src="assets/grandmaphone-icon.png"><div><h2>GrandmaPhone</h2><div class="muted">Favorites first. Calls stay familiar.</div></div></div>
+<div class="chips"><span class="chip">Grandma Mode</span><span class="chip">Admin</span><span class="chip">Super Admin</span><span class="chip">Call-aware</span></div>
+<p>Turns the Phone app into a focused Favorites experience, blocks confusing system gestures during everyday use, preserves normal calls, and gives family hidden maintenance modes when needed.</p>
+<img class="feature" src="assets/grandmaphone-overview.png" alt="GrandmaPhone overview">
+<p><a href="depictions/grandmaphone.html">View package details →</a></p>
+</article>
+
+<article class="card">
+<div class="pkghead"><img class="pkgicon" src="assets/grandmaclock-icon.png"><div><h2>GrandmaClock</h2><div class="muted">Clearer time without huge global text.</div></div></div>
+<div class="chips"><span class="chip">Large clock</span><span class="chip">Date</span><span class="chip">Charging text</span><span class="chip">Status bar</span></div>
+<p>Improves the pieces Grandma needs to read most while leaving unrelated apps at their normal text size. Dynamic width handling keeps enlarged times readable after resprings.</p>
+<img class="feature" src="assets/grandmaclock-overview.png" alt="GrandmaClock overview">
+<p><a href="depictions/grandmaclock.html">View package details →</a></p>
+</article>
+</section>
+
+<section class="section">
+<h3>Live in Sileo</h3><p class="muted">The public repository serves both tested 1.0.0 packages directly through GitHub Pages.</p>
+<div class="shots"><img src="assets/screenshots/sileo-source-live.jpg" alt="Grandma's Jailbreak in Sileo sources"><img src="assets/screenshots/sileo-packages-live.jpg" alt="GrandmaPhone and GrandmaClock in Sileo"></div>
+</section>
+
+<section class="section">
+<h3>Tested configuration</h3>
+<div class="card"><strong>iPhone 7 · iOS 15.8.8 · Dopamine rootless · Sileo / ElleKit</strong><p class="muted">Compatibility beyond this exact configuration should be treated as untested until verified on real hardware.</p></div>
+</section>
+
+<section class="section">
+<h3>Documentation</h3>
+<div class="docs">
+<a class="doc" href="docs/FEATURES.md">Features</a><a class="doc" href="docs/ADMIN_MODES.md">Admin Modes</a><a class="doc" href="docs/INSTALLATION.md">Installation</a><a class="doc" href="docs/COMPATIBILITY.md">Compatibility</a><a class="doc" href="docs/SAFETY_AND_RECOVERY.md">Safety & Recovery</a><a class="doc" href="docs/TECHNICAL_OVERVIEW.md">Technical Overview</a><a class="doc" href="docs/SUPPORT.md">Support</a><a class="doc" href="docs/CHANGELOG.md">Changelog</a><a class="doc" href="LICENSE.md">License</a>
+</div>
+</section>
+<div class="footer">Built and maintained by <strong>d</strong> · <a href="https://github.com/dtoska1/grandmas-jailbreak">GitHub</a></div>
+</main>
+</body></html>

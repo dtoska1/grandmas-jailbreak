@@ -6,20 +6,20 @@ Version: 1.0
 Architectures: iphoneos-arm64
 Components: main
 Description: GrandmaPhone and GrandmaClock packages by d
-Date: Fri, 25 Sep 2026 16:44:00 GMT
+Date: Fri, 25 Sep 2026 17:25:28 GMT
 
 MD5Sum:
- f2839da80d882511f4d643f2241bbb74             1073 Packages
- a372e3875ee8be8266c2e5430b01cd97              589 Packages.gz
- 772ee5aabfd874bf42785f8d7a17e905              664 Packages.bz2
- 6f9032e5a2a6eb803ccfc0e25b441b50              664 Packages.xz
+ 2eb18afb62ed88d91490e53de7cd0459             1513 Packages
+ 1791ce5b4fccd9ae7d057f98ca725b0e              668 Packages.gz
+ 2f47bda6494065da6d15875b92328090              779 Packages.bz2
+ 001baf86e25a71c98ded5b49792042fe              736 Packages.xz
 SHA1:
- 0d1a73196da1c3032245d3915ae3cf3d47c8168f             1073 Packages
- b40fb5feecb347fc0b32e498334b2fabb7ed24c5              589 Packages.gz
- 9cf5d724124cb1c746b2aaa5351d7f31eca42c5f              664 Packages.bz2
- 89279a1485e536cf46d4ad42b3ce00b9210f3438              664 Packages.xz
+ 70251266b10a1fcad0eeefcded61b4c8f125439f             1513 Packages
+ 2dbbeb956fb0de74f554d0650a41bee44e39f04a              668 Packages.gz
+ 6aaf2392155f62dff807bfcf62c002f27a7f9f86              779 Packages.bz2
+ 208eac64b180ad5f6e51fb369881e32613b7de66              736 Packages.xz
 SHA256:
- c13710ab5b8c94e30805b8e511bc0b46e834a7a213f8cbcb47a4e61685edd919             1073 Packages
- 05818facbf2708559674674ace1941a045e82d51a6aaea2fba446cbf2f99c359              589 Packages.gz
- 4bad6530864d82323894c062d827d1d7965d80dbaec64cbfa96f5b980efcf6f1              664 Packages.bz2
- 0f670cca22e6738fd500024627c02193cc648d35ff3b556439d64c65107e8894              664 Packages.xz
+ db3fd952c739e7a67c53f1bb7b7e9711902241b65a184c4563dce1bdc7506290             1513 Packages
+ 7448dc7f4cec021d37f7cd915781d1768053e4084ee5be26fef4c6340e8f8575              668 Packages.gz
+ 18956ac3bf55866f427b3f1d6b5fe9c2044271429b910afef7dcda0fde42f571              779 Packages.bz2
+ 9d142b37befe11a52e0a0392b2f3e1683437b6ed998683cbebc6b4c069ee1df8              736 Packages.xz
