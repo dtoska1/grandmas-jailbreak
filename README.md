@@ -68,8 +68,8 @@ GrandmaClock improves readability without globally enlarging text across unrelat
 
 <table>
 <tr>
-<td align="center"><img src="assets/screenshots/sileo-source-live.jpg" width="330"><br><b>Grandma’s Jailbreak source</b></td>
-<td align="center"><img src="assets/screenshots/sileo-packages-live.jpg" width="330"><br><b>GrandmaPhone + GrandmaClock</b></td>
+<td align="center"><img src="assets/screenshots/sileo-source-live.png" width="330"><br><b>Grandma’s Jailbreak source</b></td>
+<td align="center"><img src="assets/screenshots/sileo-packages-live.png" width="330"><br><b>GrandmaPhone + GrandmaClock</b></td>
 </tr>
 </table>
 
