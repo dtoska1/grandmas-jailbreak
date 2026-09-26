@@ -25,13 +25,13 @@ Author: d
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 76
+Version: 1.0.1
+Installed-Size: 92
 Icon: https://dtoska1.github.io/grandmas-jailbreak/assets/grandmaphone-icon.png
 Depiction: https://dtoska1.github.io/grandmas-jailbreak/depictions/grandmaphone.html
 Homepage: https://dtoska1.github.io/grandmas-jailbreak/
-Filename: debs/com.local.grandmaphonetest_1.0.0_iphoneos-arm64.deb
-Size: 8172
-MD5sum: 12d854aac3bb816c02b31a0baf81fb8e
-SHA1: 10bf8b2c1ca1c2ca574a16403435cd61f7be06f6
-SHA256: 7e6c61e868289a2189129a310c968a10bf0d88709af8ccf4f728d89e4d54689d
+Filename: debs/com.local.grandmaphonetest_1.0.1_iphoneos-arm64.deb
+Size: 9558
+MD5sum: 505e60086611826c9c8fdfe2f7ae72e6
+SHA1: 91835f03ba758dbea14fe3a0eff2f1681d5abc77
+SHA256: c330f97a977cbfd589472364a85f81500ec9241d5bb755afb182fae8efefaab3
